@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_zt_note",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_zt_note",
+  "parent":{
+    "name":"Types",
+    "path":"folders/Scripts/Types.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

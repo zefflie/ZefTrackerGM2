@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_vertex",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_vertex",
+  "parent":{
+    "name":"Types",
+    "path":"folders/Scripts/Types.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
