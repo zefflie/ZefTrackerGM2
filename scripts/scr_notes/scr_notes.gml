@@ -1,110 +1,115 @@
-global.notes_index = {
-  "C-1": 1,
-  "C#1": 2,
-  "D-1": 3,
-  "D#1": 4,
-  "E-1": 5,
-  "F-1": 6,
-  "F#1": 7,
-  "G-1": 8,
-  "G#1": 9,
-  "A-1": 10,
-  "A#1": 11,
-  "B-1": 12,
+#macro NOTE2INDEX global._note2index
+NOTE2INDEX = { 
+  "...": "...",
+  "---": "---",
+    
+  "c-1": 1,
+  "c#1": 2,
+  "d-1": 3,
+  "d#1": 4,
+  "e-1": 5,
+  "f-1": 6,
+  "f#1": 7,
+  "g-1": 8,
+  "g#1": 9,
+  "a-1": 10,
+  "a#1": 11,
+  "b-1": 12,
 
-  "C-2": 13,
-  "C#2": 14,
-  "D-2": 15,
-  "D#2": 16,
-  "E-2": 17,
-  "F-2": 18,
-  "F#2": 19,
-  "G-2": 20,
-  "G#2": 21,
-  "A-2": 22,
-  "A#2": 23,
-  "B-2": 24,
+  "c-2": 13,
+  "c#2": 14,
+  "d-2": 15,
+  "d#2": 16,
+  "e-2": 17,
+  "f-2": 18,
+  "f#2": 19,
+  "g-2": 20,
+  "g#2": 21,
+  "a-2": 22,
+  "a#2": 23,
+  "b-2": 24,
 
-  "C-3": 25,
-  "C#3": 26,
-  "D-3": 27,
-  "D#3": 28,
-  "E-3": 29,
-  "F-3": 30,
-  "F#3": 31,
-  "G-3": 32,
-  "G#3": 33,
-  "A-3": 34,
-  "A#3": 35,
-  "B-3": 36,
+  "c-3": 25,
+  "c#3": 26,
+  "d-3": 27,
+  "d#3": 28,
+  "e-3": 29,
+  "f-3": 30,
+  "f#3": 31,
+  "g-3": 32,
+  "g#3": 33,
+  "a-3": 34,
+  "a#3": 35,
+  "b-3": 36,
 
-  "C-4": 37,
-  "C#4": 38,
-  "D-4": 39,
-  "D#4": 40,
-  "E-4": 41,
-  "F-4": 42,
-  "F#4": 43,
-  "G-4": 44,
-  "G#4": 45,
-  "A-4": 46,
-  "A#4": 47,
-  "B-4": 48,
+  "c-4": 37,
+  "c#4": 38,
+  "d-4": 39,
+  "d#4": 40,
+  "e-4": 41,
+  "f-4": 42,
+  "f#4": 43,
+  "g-4": 44,
+  "g#4": 45,
+  "a-4": 46,
+  "a#4": 47,
+  "b-4": 48,
 
-  "C-5": 49,
-  "C#5": 50,
-  "D-5": 51,
-  "D#5": 52,
-  "E-5": 53,
-  "F-5": 54,
-  "F#5": 55,
-  "G-5": 56,
-  "G#5": 57,
-  "A-5": 58,
-  "A#5": 59,
-  "B-5": 60,
+  "c-5": 49,
+  "c#5": 50,
+  "d-5": 51,
+  "d#5": 52,
+  "e-5": 53,
+  "f-5": 54,
+  "f#5": 55,
+  "g-5": 56,
+  "g#5": 57,
+  "a-5": 58,
+  "a#5": 59,
+  "b-5": 60,
 
-  "C-6": 61,
-  "C#6": 62,
-  "D-6": 63,
-  "D#6": 64,
-  "E-6": 65,
-  "F-6": 66,
-  "F#6": 67,
-  "G-6": 68,
-  "G#6": 69,
-  "A-6": 70,
-  "A#6": 71,
-  "B-6": 72,
+  "c-6": 61,
+  "c#6": 62,
+  "d-6": 63,
+  "d#6": 64,
+  "e-6": 65,
+  "f-6": 66,
+  "f#6": 67,
+  "g-6": 68,
+  "g#6": 69,
+  "a-6": 70,
+  "a#6": 71,
+  "b-6": 72,
 
-  "C-7": 73,
-  "C#7": 74,
-  "D-7": 75,
-  "D#7": 76,
-  "E-7": 77,
-  "F-7": 78,
-  "F#7": 79,
-  "G-7": 80,
-  "G#7": 81,
-  "A-7": 82,
-  "A#7": 83,
-  "B-7": 84,
+  "c-7": 73,
+  "c#7": 74,
+  "d-7": 75,
+  "d#7": 76,
+  "e-7": 77,
+  "f-7": 78,
+  "f#7": 79,
+  "g-7": 80,
+  "g#7": 81,
+  "a-7": 82,
+  "a#7": 83,
+  "b-7": 84,
 
-  "C-8": 85,
-  "C#8": 86,
-  "D-8": 87,
-  "D#8": 88,
-  "E-8": 89,
-  "F-8": 90,
-  "F#8": 91,
-  "G-8": 92,
-  "G#8": 93,
-  "A-8": 94,
-  "A#8": 95,
-  "B-8": 96,
-}
+  "c-8": 85,
+  "c#8": 86,
+  "d-8": 87,
+  "d#8": 88,
+  "e-8": 89,
+  "f-8": 90,
+  "f#8": 91,
+  "g-8": 92,
+  "g#8": 93,
+  "a-8": 94,
+  "a#8": 95,
+  "b-8": 96,
+};
 
-global.notes_hz = [
+#macro INDEX2HZ global._index2hz
+INDEX2HZ = [
   0,
 
   33.0,
@@ -212,7 +217,112 @@ global.notes_hz = [
   7973.92,
 ];
 
-function note2hz(note) {
-    if (note == "...") return 0;
-    return global.notes_hz[global.notes_index[$ note]];
-}
+#macro INDEX2NOTE global._index2note
+INDEX2NOTE = {};
+INDEX2NOTE[$ -2] = "---";
+INDEX2NOTE[$ -1] = "..."; 
+INDEX2NOTE[$ 0] = "   ";  
+
+INDEX2NOTE[$ 1] = "c-1";
+INDEX2NOTE[$ 2] = "c#1";
+INDEX2NOTE[$ 3] = "d-1";
+INDEX2NOTE[$ 4] = "d#1";
+INDEX2NOTE[$ 5] = "e-1";
+INDEX2NOTE[$ 6] = "f-1";
+INDEX2NOTE[$ 7] = "f#1";
+INDEX2NOTE[$ 8] = "g-1";
+INDEX2NOTE[$ 9] = "g#1";
+INDEX2NOTE[$ 10] = "a-1";
+INDEX2NOTE[$ 11] = "a#1";
+INDEX2NOTE[$ 12] = "b-1";
+
+INDEX2NOTE[$ 13] = "c-2";
+INDEX2NOTE[$ 14] = "c#2";
+INDEX2NOTE[$ 15] = "d-2";
+INDEX2NOTE[$ 16] = "d#2";
+INDEX2NOTE[$ 17] = "e-2";
+INDEX2NOTE[$ 18] = "f-2";
+INDEX2NOTE[$ 19] = "f#2";
+INDEX2NOTE[$ 20] = "g-2";
+INDEX2NOTE[$ 21] = "g#2";
+INDEX2NOTE[$ 22] = "a-2";
+INDEX2NOTE[$ 23] = "a#2";
+INDEX2NOTE[$ 24] = "b-2";
+
+INDEX2NOTE[$ 25] = "c-3";
+INDEX2NOTE[$ 26] = "c#3";
+INDEX2NOTE[$ 27] = "d-3";
+INDEX2NOTE[$ 28] = "d#3";
+INDEX2NOTE[$ 29] = "e-3";
+INDEX2NOTE[$ 30] = "f-3";
+INDEX2NOTE[$ 31] = "f#3";
+INDEX2NOTE[$ 32] = "g-3";
+INDEX2NOTE[$ 33] = "g#3";
+INDEX2NOTE[$ 34] = "a-3";
+INDEX2NOTE[$ 35] = "a#3";
+INDEX2NOTE[$ 36] = "b-3";
+
+INDEX2NOTE[$ 37] = "c-4";
+INDEX2NOTE[$ 38] = "c#4";
+INDEX2NOTE[$ 39] = "d-4";
+INDEX2NOTE[$ 40] = "d#4";
+INDEX2NOTE[$ 41] = "e-4";
+INDEX2NOTE[$ 42] = "f-4";
+INDEX2NOTE[$ 43] = "f#4";
+INDEX2NOTE[$ 44] = "g-4";
+INDEX2NOTE[$ 45] = "g#4";
+INDEX2NOTE[$ 46] = "a-4";
+INDEX2NOTE[$ 47] = "a#4";
+INDEX2NOTE[$ 48] = "b-4";
+
+INDEX2NOTE[$ 49] = "c-5";
+INDEX2NOTE[$ 50] = "c#5";
+INDEX2NOTE[$ 51] = "d-5";
+INDEX2NOTE[$ 52] = "d#5";
+INDEX2NOTE[$ 53] = "e-5";
+INDEX2NOTE[$ 54] = "f-5";
+INDEX2NOTE[$ 55] = "f#5";
+INDEX2NOTE[$ 56] = "g-5";
+INDEX2NOTE[$ 57] = "g#5";
+INDEX2NOTE[$ 58] = "a-5";
+INDEX2NOTE[$ 59] = "a#5";
+INDEX2NOTE[$ 60] = "b-5";
+
+INDEX2NOTE[$ 61] = "c-6";
+INDEX2NOTE[$ 62] = "c#6";
+INDEX2NOTE[$ 63] = "d-6";
+INDEX2NOTE[$ 64] = "d#6";
+INDEX2NOTE[$ 65] = "e-6";
+INDEX2NOTE[$ 66] = "f-6";
+INDEX2NOTE[$ 67] = "f#6";
+INDEX2NOTE[$ 68] = "g-6";
+INDEX2NOTE[$ 69] = "g#6";
+INDEX2NOTE[$ 70] = "a-6";
+INDEX2NOTE[$ 71] = "a#6";
+INDEX2NOTE[$ 72] = "b-6";
+
+INDEX2NOTE[$ 73] = "c-7";
+INDEX2NOTE[$ 74] = "c#7";
+INDEX2NOTE[$ 75] = "d-7";
+INDEX2NOTE[$ 76] = "d#7";
+INDEX2NOTE[$ 77] = "e-7";
+INDEX2NOTE[$ 78] = "f-7";
+INDEX2NOTE[$ 79] = "f#7";
+INDEX2NOTE[$ 80] = "g-7";
+INDEX2NOTE[$ 81] = "g#7";
+INDEX2NOTE[$ 82] = "a-7";
+INDEX2NOTE[$ 83] = "a#7";
+INDEX2NOTE[$ 84] = "b-7";
+
+INDEX2NOTE[$ 85] = "c-8";
+INDEX2NOTE[$ 86] = "c#8";
+INDEX2NOTE[$ 87] = "d-8";
+INDEX2NOTE[$ 88] = "d#8";
+INDEX2NOTE[$ 89] = "e-8";
+INDEX2NOTE[$ 90] = "f-8";
+INDEX2NOTE[$ 91] = "f#8";
+INDEX2NOTE[$ 92] = "g-8";
+INDEX2NOTE[$ 93] = "g#8";
+INDEX2NOTE[$ 94] = "a-8";
+INDEX2NOTE[$ 95] = "a#8";
+INDEX2NOTE[$ 96] = "b-8";

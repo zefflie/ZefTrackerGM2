@@ -9,8 +9,8 @@
   "name":"obj_audio",
   "overriddenProperties":[],
   "parent":{
-    "name":"Engine",
-    "path":"folders/Engine.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
