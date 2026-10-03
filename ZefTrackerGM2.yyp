@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"FurTracker",
+  "%Name":"ZefTrackerGM2",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -21,9 +21,9 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2026.0.0.16",
   },
-  "name":"FurTracker",
+  "name":"ZefTrackerGM2",
   "resources":[
     {"id":{"name":"fnt_unscii","path":"fonts/fnt_unscii/fnt_unscii.yy",},},
     {"id":{"name":"_obj_engine","path":"objects/_obj_engine/_obj_engine.yy",},},

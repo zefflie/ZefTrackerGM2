@@ -8632,8 +8632,8 @@
   "maintainGms1Font":false,
   "name":"fnt_unscii",
   "parent":{
-    "name":"FurTracker",
-    "path":"FurTracker.yyp",
+    "name":"ZefTrackerGM2",
+    "path":"ZefTrackerGM2.yyp",
   },
   "pointRounding":0,
   "ranges":[
