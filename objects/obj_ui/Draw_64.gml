@@ -34,7 +34,7 @@ if (row_index < 0) {
 draw_set_colour(palette.lt_white);
 paint_rectangle(0, 0, width, 1);
 
-text = $"FluffTracker v{GM_version}\n";
+text = $"{game_display_name} v{GM_version}\n";
 draw_set_colour(palette.black);
 paint_text(text, 1, 0);
 
