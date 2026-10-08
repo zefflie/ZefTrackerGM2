@@ -4,8 +4,13 @@ UI = self
 cell_width = 8;
 cell_height = 16;
 border = 4;
-width = (window_get_width() - border * 2) div cell_width;
-height = (window_get_height() - border * 2) div cell_height;
+width = 1;
+height = 1;
+
+window = {
+	width: window_get_width(),
+	height: window_get_height(),
+};
 
 palette = {
     black:   #000000,
@@ -44,4 +49,9 @@ paint_text = function(text, left, top) {
         cell_height,
         width * cell_width
     );
+}
+
+on_window_resize = function(_wwidth, _wheight) {
+	width = (_wwidth - border * 2) div cell_width;
+	height = (_wheight - border * 2) div cell_height;
 }

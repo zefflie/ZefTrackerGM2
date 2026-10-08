@@ -1,3 +1,16 @@
+// Изменение окна
+var window_width = window_get_width();
+var window_height = window_get_height();
+
+if (window.width != window_width or window.height != window_height) {
+	on_window_resize(window_width, window_height);
+	display_set_gui_size(window_width, window_height);
+	window.width = window_width; 
+	window.height = window_height;
+}
+
+
+
 // Подготовка
 var text;
 draw_set_font(fnt_unscii);
